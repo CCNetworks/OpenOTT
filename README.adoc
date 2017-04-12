@@ -1,0 +1,96 @@
+= OpenOTT 
+:toc: macro
+:toc-title: 目录
+:toclevels: 4
+:sectnums:
+:imagesdir: ./imgs
+
+toc::[]
+
+
+
+== 变更说明
+
+|=======================
+|版本|作者     |日期|说明
+|v0.1    |Victor     |2017-03-27 |init
+|=======================
+
+
+== 简介
+
+OpenOTT旨在采用业界最先进的开源技术为运营商和内容提供商，面向互联网，提供安全、可定制、可运营的OTT业务平台。
+其主要涉及以下组件及规范：
+
+**** 
+. link:./arch/global.adoc[OTT服务架构] 
+. link:./arch/OttClient.adoc[OTT终端]
+. link:./arch/DVB_OTTClient.adoc[DVB+OTT终端]
+. OTT前端
+**** 
+
+== 特点
+. 采用互联网架构
+. 支持大规模并发
+. 采用各种先进并成熟可靠的技术标准，包括
+    * HTML5
+    * HTTP/2
+    * MQTT
+    * 容器
+    * 微服务架构
+
+
+== 规范
+
+=== 文档部分
+
+* 文本统一采用AsciiDoctor格式
+* 建议采用 http://http://www.asciidocfx.com[AsciidocFX] 作为主要编辑软件
+* 文档格式设置统一如下：
+```
+:toc: macro
+:toc-title: 目录
+:toclevels: 4
+:sectnums:
+:imagedir: imgs
+toc::[]
+```
+
+=== 软件部分
+
+TODO
+
+
+
+== 支持
+本项目由 http://asciidoctor.org[重庆有线电视网络股份有限公司] 研究院发起并提供技术支持
+
+
+
+== 许可协议
+
+* image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[]
+本项目设计文档部分采用 http://creativecommons.org/licenses/by-sa/4.0/[知识共享署名-相同方式共享 4.0 国际许可协议] 进行许可
+
+* 本项目软件代码部分采用 http://www.apache.org/licenses/LICENSE-2.0[Apache License 2.0] 进行许可
+
+****
+
+Copyright 2017 Chongqing Cable Networks Co., LTD.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+****
+
+* 重庆有线也可提供其他商业许可协议
+
